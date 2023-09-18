@@ -1,3 +1,5 @@
+/* rozkład liczby na czynniki pierwsze */
+
 #include<iostream>
 #include<vector>
 using namespace std;
