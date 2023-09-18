@@ -1,3 +1,5 @@
+/* wszystkie dzielniki liczby */ 
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
