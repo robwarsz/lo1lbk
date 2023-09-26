@@ -1,3 +1,12 @@
+/*
+Zadanie dla uczniów: do programu odczyt.cpp
+dodać funkcje:
+ - funkcja: ilość parzystych
+ - funkcja: ilość większych od 200
+ - funkcja: najdłuszy ciąg rosnący (wypisz i podaj ile ma elementów)
+*/
+
+
 #include<iostream>
 #include<fstream>
 #include<time.h>
