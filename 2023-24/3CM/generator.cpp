@@ -1,3 +1,5 @@
+//program zapisuje 1000 liczb pseudolowych do pliku
+
 #include<iostream>
 #include<fstream>
 #include<time.h>
