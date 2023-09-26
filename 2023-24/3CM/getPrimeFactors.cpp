@@ -1,4 +1,4 @@
-/* rozkład liczby na czynniki pierwsze */
+/* rozkład liczby na czynniki pierwsze - funkcja jako wynik zwraca wektor */
 
 #include<iostream>
 #include<vector>
