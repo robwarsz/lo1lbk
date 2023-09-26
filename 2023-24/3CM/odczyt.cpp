@@ -3,7 +3,9 @@ Zadanie dla uczniów: do programu odczyt.cpp
 dodać funkcje:
  - funkcja: ilość parzystych
  - funkcja: ilość większych od 200
- - funkcja: najdłuszy ciąg rosnący (wypisz i podaj ile ma elementów)
+ - funkcja: najdłuszy podciąg rosnący (wypisz i podaj ile ma elementów)
+    → opjca dodatkowa 1: funkcja zwraca ten podciąg do funkcji main (np. jako wektor)
+    → jeżeli jest kilka takich podciągów to zwróc wszystkie 
 */
 
 
