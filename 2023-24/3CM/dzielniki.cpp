@@ -1,3 +1,5 @@
+//funkcja zwraca przez referencję dzielniki zgromadzone w wektorze
+
 #include<iostream>
 #include<vector>
 #include<algorithm>
