@@ -1,4 +1,6 @@
-/* wszystkie dzielniki liczby */ 
+/* wszystkie dzielniki liczby 
+funkcja groamdzi dzielniki do wektora, następnie sortuje wektor i zwraca jako wynik
+*/ 
 
 #include <iostream>
 #include <vector>
