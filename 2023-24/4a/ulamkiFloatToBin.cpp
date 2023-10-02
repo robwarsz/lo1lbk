@@ -1,21 +1,39 @@
 /*
 prototyp 
 zamienia liczbê typu float na postaæ binarn¹
-wersja wymaga dokoñczenia
+ * wersja wymaga dokoñczenia
+ * tylko liczby dodatnie, bez znaku
 */
 
 #include<iostream>
+#include<stack>
 using namespace std;
 
-//string calkowitaBin(int w);
+string calkowitaBin(int w);
 string ulamekBin(float u);
+
 
 int main() {
 	float x = 197.233 ;
 	int w = x;
 	float u = x - w;	
-	cout << w << " " << u << endl;	
-	cout << ulamekBin(u);
+	cout << w << " " << u << endl;
+	cout << calkowitaBin(w) << " . " << ulamekBin(u);
+}
+
+string calkowitaBin(int w) {
+	stack<int> S;
+	while (w!=0){
+		S.push(w%2);
+		w/=2;
+	}
+	string wynik="";
+	while(!S.empty()){
+		wynik+=char(S.top()+48);
+		S.pop();
+	}	
+	
+	return wynik;
 }
 
 string ulamekBin(float u) {
