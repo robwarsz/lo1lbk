@@ -4,4 +4,4 @@ Każdy przedmiot dostępny jeden raz
 
 W pliku dane.txt pierwsza linia: pojemność plecaka, ilość przedmiotów
 
-Jak wynik otrzymujemy numery przedmiotów (po sortowaniu) które mamy w plecaku oraz wartośc plecaka
+Jako wynik otrzymujemy numery przedmiotów (po sortowaniu) które mamy w plecaku oraz wartośc plecaka
