@@ -1,1 +1,7 @@
-opis.txt
+Algorytm plecakowy zachłanny
+
+Każdy przedmiot dostępny jeden raz
+
+W pliku dane.txt pierwsza linia: pojemność plecaka, ilość przedmiotów
+
+Jak wynik otrzymujemy numery przedmiotów (po sortowaniu) które mamy w plecaku oraz wartośc plecaka
