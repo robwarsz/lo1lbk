@@ -1,16 +1,15 @@
 /*
-Program wykorzystuje kody ASCII
+Program wykorzystuje tablice znakow
 */
 
 #include<iostream>
 using namespace std;
 
 string dta(int a,int sys, string b) {
+	char characterset[] = {'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F','G','H','I','J','K','L'};
 	if (a==0)
 		return b;
-	if (a%sys>9)
-		return dta(a/sys,sys,char(a%sys+55)+b);				
-	return dta(a/sys,sys,char(a%sys+48)+b);				
+	return dta(a/sys,sys,characterset[a%sys]+b);				
 }
 
 int main() {
